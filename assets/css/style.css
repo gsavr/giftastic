@@ -1,0 +1,105 @@
+
+html {
+    position: relative;
+    min-height: 100%;
+  }
+
+  html body{
+    align-content: center; 
+    background-color: rgba(219, 217, 213, 0.767);/* rgba(207, 205, 201, 0.767) */
+    background-size: 100%; 
+    background-attachment: fixed;
+    padding-left:0;
+    margin-left: 15px;
+   
+}
+
+.jumbotron{
+  background: none;
+  padding:20px;
+  font-family: 'Roboto', sans-serif;
+  color: white;
+  font-style: italic;
+  /* -webkit-text-stroke-width: .9px;
+   -webkit-text-stroke-color: black; */
+  
+}
+
+.jumbotron .imgBack{
+    background-image: url("../images/film-reel-down.png"); 
+    background-size: 100%;
+    opacity: 1;
+    margin:0px;
+    padding-top: 40px;
+    padding-bottom: 30px;
+    border-radius: 10px;
+  }
+
+h3{
+    font-size: 45px !important;
+}
+
+#movie-input{
+    border-radius: 5px;
+    background-color: rgba(219, 217, 213, 0.925);
+    margin: 10px;
+    
+}
+
+p{
+    margin-bottom:10px;
+}
+
+p#rating{
+    margin:0
+}
+
+.movieGifs{
+    margin-bottom: 10px;
+}
+
+.movieInfo{
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+#instructions{
+    font-size: 13px;
+}
+
+input:focus { 
+    border-color: #a3a39b!important;
+}
+
+input:active { 
+border-color:#a3a39b!important;
+}
+
+div.col-md-4, div.col-md-3 {
+    background-image: url("../images/film-reel-pics-2.png"); 
+    background-size: 100%;
+    opacity: 1;
+    color:white;
+    font-style: italic;
+    margin:0px;
+    padding: 30px !important;
+    padding-left: 60px;
+    padding: 20px;
+    /* border-radius: 10px; */
+    border-radius: 20px;
+}
+
+.footer{
+    position: absolute; 
+    bottom: 0;
+    background-color: #6C7A89;
+    color: white;
+    width: 100%;
+    font-size: 12px;
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 5px;
+    border-top: 2px solid #aec5df;
+    margin-top: 50px;
+    line-height: 30px;
+}

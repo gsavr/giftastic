@@ -1,0 +1,60 @@
+
+html {
+    position: relative;
+    min-height: 100%;
+  }
+
+  html body{
+    align-content: center; 
+    background-image: url("../images/scratched-film-strip-background.jpg"); 
+    background-size: 100%; 
+    background-attachment: fixed;
+    padding-left:0;
+    margin-left: 15px;
+   
+}
+
+.jumbotron{
+  background: none;
+  padding:20px;
+  
+}
+
+.jumbotron .imgBack{
+    background-image: url("../images/back_silver_darker.png"); 
+    opacity: 1;
+    margin:0px;
+    padding: 20px;
+    border-radius: 5px;
+  }
+
+h3{
+    font-size: 45px !important;
+}
+
+#movie-input{
+    border-radius: 5px;
+}
+
+div.col-md-4, div.col-md-3, div.col-md-2{
+    background-image: url("../images/back_silver_darker.png"); 
+    opacity: 1;
+    margin:5px;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.footer{
+    position: absolute; 
+    bottom: 0;
+    background-color: #6C7A89;
+    color: white;
+    width: 100%;
+    font-size: 12px;
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 5px;
+    border-top: 2px solid #aec5df;
+    margin-top: 50px;
+    line-height: 30px;
+}
