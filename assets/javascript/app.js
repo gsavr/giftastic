@@ -82,7 +82,7 @@ function showMovieInfo() {
         method: "GET"
     }).then(function(response) {
         console.log(response)
-        var imdb = ("<a href='http://www.imdb.com/title/"+response.imdbID+"'target='_blank'><img src='../assets/images/imdb.png'></a>")
+        var imdb = ("<a href='http://www.imdb.com/title/"+response.imdbID+"'target='_blank'><img src='assets/images/imdb.png'></a>")
         $("#movies-display").prepend("<div class='col-md-4'><h4>"+response.Title+"</h4><span>("+response.Type+")</span><p>Rated "+response.Rated+"</p><p>Year Released: "+response.Year+"</p><p style='font-size:15px'>Plot: "+response.Plot+"  "+imdb+"</p><img src='"+response.Poster+"'></div>");
 });
 }
